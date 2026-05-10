@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="h-18 w-full border-b border-white/30 sticky top-0 z-50 bg-dark-blue">
+        <nav class="h-full flex items-center justify-between text-white px-4 relative">
+
+            <div class="flex items-center gap-1 lg:ml-12">
+                <span class="bg-light-blue w-8 h-8 flex items-center pl-1.5 rounded-md font-bold "><i class="fa-solid fa-bolt"></i></span>
+
+                <div class="size-10 font-semibold flex items-center">
+                    <h1>Nexus</h1>
+                </div>
+
+            </div>
+            <ul class="hidden md:flex gap-8 items-center">
+                <li>
+                    <a href="#">Home</a>
+                <li>
+                    <a href="#">Services</a>
+                <li>
+                    <a href="#">About</a>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <span class="flex bg-light-blue h-8 items-center justify-center py-2 px-6 rounded-sm">
+                <a href="#">Get Started</a>
+            </span>
+
+            <!-- mobile-->
+            <div class="md:hidden text-2xl lg:hidden">
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class=" bg-dark-blue w-full flex flex-col items-center py-16" id="home">
+
+            <div class="grid grid-cols-1 w-9/10 max-w-7xl mx-auto py-4 md:grid-cols-2 gap-6 lg:w-9/10">
+
+                <div class="lg:items-center justify-center mt-4">
+                    <h2 class="text-white text-5xl font-bold mt-4">Build Your <span class="text-light-blue">Digital</span> Future</h2>
+
+
+                    <p class="text-white items-center justify-center py-4 mt-2">
+                        Transform your business with cutting-edge solutions that drive growth and innovation in the digital landscape.
+                    </p>
+
+                    <div class="flex flex-row gap-4 text-white-shade items-center mt-4">
+                        <a class="bg-light-blue py-2 px-4 rounded-md" href="#">Start Your Journey</a>
+
+                        <a class="border border-white-shade/30 py-2 px-3 rounded-md" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="max-h-70 mt-6 lg:mr-3">
+                    <img src="./hero-image (2).png" alt="hero-image.png" class="w-95 object-cover  rounded-3xl lg:w-9/10 h-80 items-center self-center">
+                </div>
+            </div>
+        </section>
+
+        <section class=" w-full bg-blue-shade h-4/10" id="Services">
+
+            <div class="w-9/10 max-w-7xl mx-auto flex flex-col gap-6 py-16">
+
+                <div class="flex flex-col gap-2 items-center">
+                    <h2 class=" font-bold text-2xl lg:text-3xl 2xl:text-4xl text-white-shade">Our Services</h2>
+
+                    <p class="text-white-shade/80 font-medium text-sm text-center w-9/10 max-w-120 2xl:text-lg">
+                        We provide comprehensive solutions to help your business thrive in the digital age. 
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+                    <!-- first card -->
+                    <div class="flex flex-col gap-4 border border-white-shade/15 rounded-2xl py-8 px-4">
+
+                        <span class="self-start w-10 h-10 flex justify-center items-center bg-light-blue rounded-lg text-white-shade"><i class="fa-solid fa-code"></i></span>
+
+                        <h3 class="font-bold text-xl text-white-shade">Web Development</h3>
+                    
+                        <p class="text-sm text-white-shade/80">Custom websites and web applications built with modern technologies for optimal performance.</p>
+                    </div>
+
+                    <!-- second card -->
+                    <div class="flex flex-col gap-4 border border- border-white-shade/15 rounded-2xl py-8 px-4">
+
+                        <span class="self-start w-10 h-10 flex justify-center items-center bg-green-500 rounded-lg text-white-shade"><i class="fa-solid fa-mobile-screen-button"></i></span>
+
+                        <h3 class="font-bold text-xl text-white-shade">Mobile Apps</h3>
+
+                        <p class="text-sm text-white-shade/80">Native and cross-platform mobile applications that deliver exceptional user experiences.</p>
+                    </div>
+
+                    <!-- third card -->
+                    <div class="flex flex-col gap-4 border border-white-shade/15 rounded-2xl py-8 px-4">
+
+                        <span class="self-start w-10 h-10 flex justify-center items-center bg-purple-500 rounded-lg text-white-shade"><i class="fa-solid fa-chart-line"></i></span>
+
+                        <h3 class="font-bold text-xl text-white-shade">Digital Marketing</h3>
+
+                        <p class="text-sm text-white-shade/80">Strategic marketing campaigns that boost your online presence and drive conversions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
